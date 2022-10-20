@@ -1,0 +1,27 @@
+ng help -	Gives you options to get help about any command ot utility.
+
+ng version -	Prints the version info of the currently installed CLI.
+
+ng new <name> -  Generates a new Angular project with the provided name.
+
+ng serve -	Spins up the local development server and launches the web app locally in the browser. The command takes more parameters like port and open. The server automatically rebuilds the app and reloads the page when you change any of the source files.
+
+ng build -	Complies and builds the Angular app into a directory that can be deployed on the web server.
+
+ng generate	- Used to generate modules, services, components, classes, providers, pipes, etc.
+
+ngOnChanges	- This hook is executed before the content is processed or child views are loaded. It is also executed when the input properties of the component change.
+
+ngOnInit -	This hook is used to initialize data in a component. It is called after input values are set and the component is initialized and it is executed only once.
+
+ngDoCheck	- This hook is called when any change detection runs are made.
+
+ngAfterContentInit -	This hook is called after ngOnInit when the component's or directive's content has been initialized.
+
+ngAfterContentChecked -	This hook is called every time the ngDoCheck is called.
+
+ngAfterViewInit -	This hook is called after Angular initializes component’s and child components’ content.
+
+ngAfterViewChecked - This hook is after every check of the component's views and child views.
+
+ngOnDestroy -	This hook is called once right before the component is destroyed. This can be used to clean up memory and release allotted resources and subscriptions.
